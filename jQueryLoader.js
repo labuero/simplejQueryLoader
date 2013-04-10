@@ -3,8 +3,6 @@ var jQueryLoader = function(callback,jQuerySrc){
 jQuerySource = jQuerySrc || "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js";
 
 
-/////////////////////// JQUERY CHECK ////////////////////
-
   // prüfen ob jquery vorhanden, wenn nö, dann nachladen
 	if (typeof $ === 'undefined') {
 
@@ -65,6 +63,5 @@ jQuerySource = jQuerySrc || "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/
 		callback();
 
 	}
-/////////////////////// JQUERY CHECK ENDE ////////////////////
 		
 }
