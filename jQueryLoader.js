@@ -45,7 +45,7 @@ jQuerySource = jQuerySrc || "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/
                      callback();        
                 }else{               
                      
-                      if(checkCounter > 40){ throw ('waiting too long to jQuery loading'); return false;}
+                      if(checkCounter > 30){ throw ('waiting too long to jQuery loading'); return false;}
                       
                       //100ms warten und dann nochmal prüfen
                       ebyDynjQueryInt = window.setTimeout(checkjQueryLoaded, 100);
